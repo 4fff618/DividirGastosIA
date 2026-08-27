@@ -151,6 +151,11 @@ fun ExpenseSplitterScreen(modifier: Modifier = Modifier) {
 
         HorizontalDivider()
 
+        // ── Calculadora RPN: apilar costos y ver su suma ─────────────────
+        RpnSumCalculatorCard()
+
+        HorizontalDivider()
+
         // ── Número de personas ────────────────────────────────────────────
         Row(
             verticalAlignment = Alignment.CenterVertically,
